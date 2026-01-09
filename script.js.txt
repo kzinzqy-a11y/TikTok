@@ -1,0 +1,35 @@
+// CONTADOR REGRESSIVO
+let min = 16;
+let sec = 38;
+
+setInterval(() => {
+  if (sec === 0) {
+    if (min === 0) return;
+    min--;
+    sec = 59;
+  } else {
+    sec--;
+  }
+
+  document.getElementById("tempo").innerText =
+    `00:${String(min).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+}, 1000);
+
+// SALDO ANIMADO
+let saldoFinal = 2769.09;
+let saldoAtual = 0;
+
+let animarSaldo = setInterval(() => {
+  saldoAtual += 23.17;
+
+  if (saldoAtual >= saldoFinal) {
+    saldoAtual = saldoFinal;
+    clearInterval(animarSaldo);
+  }
+
+  document.getElementById("saldo").innerText =
+    saldoAtual.toLocaleString('pt-BR', {
+      style: 'currency',
+      currency: 'BRL'
+    });
+}, 30);

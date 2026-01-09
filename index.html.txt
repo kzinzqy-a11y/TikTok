@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de Recompensas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">TikTok</div>
+</header>
+
+<div class="expira">
+  SEU SALDO EXPIRA EM <span id="tempo">00:16:38</span>
+</div>
+
+<h2>Resgatar recompensas</h2>
+
+<div class="saldo-card">
+  <div class="saldo-info">
+    <span>Seu saldo</span>
+    <h1 id="saldo">R$ 0,00</h1>
+    <p>= 10.000.000 pontos (s)</p>
+  </div>
+  <div class="moeda">P</div>
+</div>
+
+<div class="ultima">
+  Última recompensa: R$ 300,00
+</div>
+
+<div class="saque-box">
+  <h3>Sacar dinheiro</h3>
+  <p class="pix">Transferência via Pix</p>
+
+  <div class="opcoes">
+    <button>R$ 1,5</button>
+    <button>R$ 5</button>
+    <button>R$ 10</button>
+  </div>
+
+  <div class="total">
+    R$ 2.770,00
+  </div>
+
+  <button id="sacar">Sacar dinheiro</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

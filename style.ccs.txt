@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.aviso {
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 8px;
+}
+
+header {
+  padding: 15px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.expira {
+  background: #e5e5e5;
+  padding: 10px;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.saldo-card {
+  background: black;
+  color: white;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saldo-card h1 {
+  margin: 10px 0;
+}
+
+.moeda {
+  background: gold;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ultima {
+  background: #111;
+  color: #aaa;
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 0 0 18px 18px;
+  font-size: 13px;
+}
+
+.saque-box {
+  background: white;
+  margin: 15px;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.pix {
+  font-size: 13px;
+  color: #555;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.opcoes button {
+  width: 30%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+}
+
+.total {
+  background: #eee;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#sacar {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #ddd;
+  font-size: 16px;
+}
